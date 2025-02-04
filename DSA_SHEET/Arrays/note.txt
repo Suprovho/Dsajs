@@ -1,0 +1,7 @@
+these problems are basically using two pointers sliding window and other array algo such as dutch national flag,mooyrs voting algo,2d arrays etc.
+core concepts using map or set data structure.
+
+if we use empty array make sure to push it don't override it.
+
+let temp=[];
+temp.push(..) not temp[i]=exmaple[i];

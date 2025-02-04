@@ -1,0 +1,3 @@
+bs on answer is possible when something max or min and we know that some portion is possible and other portion is not. like koko eating bana.. etc.
+
+question that are not applicable like kth missing positive etc;
