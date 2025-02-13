@@ -9,7 +9,7 @@
 function subset(s, list, current) {
   if (s == "") {
     list.push(current);
-    return list;
+    return; // we don't need to return list as its pass by ref and we are passing in arg externally if we do in internal we should return list.
   }
 
   let char = s[0];
@@ -24,7 +24,7 @@ console.log(list);
 function subsetNo(arr, current, list) {
   if (arr.length === 0) {
     list.push([...current]);
-    return list;
+    return;
   }
 
   let ele = arr[0];

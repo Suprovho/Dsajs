@@ -1,7 +1,7 @@
 function phoneNo(p,up,list) {
     if (up=="") {
         list.push(p)
-        return list;
+        return;
     }
 
     let digit=up[0]-"0";
@@ -12,5 +12,5 @@ function phoneNo(p,up,list) {
 }
 
 let list=[];
-phoneNo("","12",list);
+phoneNo("","23",list);
 console.log(list);
