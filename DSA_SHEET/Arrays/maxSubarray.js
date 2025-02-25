@@ -1,5 +1,5 @@
 const arr = [-2, 1, -3, 4, -1, 2, 1, -5, 4];
-
+//KANDE's ALGORITHM 
 var maxSubArray = function (nums) {
   let max = Number.MIN_SAFE_INTEGER;
   let sum = 0;

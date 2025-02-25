@@ -28,7 +28,7 @@ function getLongestSubarray2(a, k) {
   let sum = a[0];
   let maxLen = 0;
   while (right < n) {
-    // if sum > k, reduce the subarray from left
+     // if sum > k, reduce the subarray from left
     // until sum becomes less or equal to k
     while (left <= right && sum > k) {
       sum -= a[left];

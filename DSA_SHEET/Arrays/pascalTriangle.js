@@ -20,3 +20,14 @@
  };
 
  //Tc=O(n2)
+
+ function generateRow(row) {
+    let ans=1;
+    let list=[1];
+    for (let col = 1; col < array.length; col++) {
+          ans=ans*(row-col);
+          ans=ans/10;
+          list.push(ans);
+    }
+    return list;
+ }
