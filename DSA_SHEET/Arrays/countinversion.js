@@ -13,3 +13,5 @@ function inversionCount(arr) {
 }
 const arr=[2, 4, 1, 3, 5]
 console.log(inversionCount(arr));
+
+// for optimal use merge sort.
