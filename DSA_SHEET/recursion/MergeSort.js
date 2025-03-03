@@ -2,6 +2,8 @@
 
 //* tc-O(Nlogn) sc-O(n)
 
+// this is in-place 
+
 function mergeSort(arr, low, high) {
   if (low >= high) {
     return;
