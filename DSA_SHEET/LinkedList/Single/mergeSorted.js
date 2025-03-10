@@ -41,7 +41,3 @@ export var mergeTwoLists = function (list1, list2) {
 // [dummy or 0 or null , 1, 2, 3, 4, 5, 6]
 
 // By returning ans.next, you correctly skip the dummy node and return: [1, 2, 3, 4, 5, 6]
-
-
-
-
