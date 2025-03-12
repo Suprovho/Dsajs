@@ -21,10 +21,10 @@ function findMax(arr) {
   return max;
 }
 
-function TotalHours(arr, h) {
+function TotalHours(arr, k) {
   let totalh = 0;
   for (let i = 0; i < arr.length; i++) {
-    totalh += Math.ceil(arr[i] / h);
+    totalh += Math.ceil(arr[i] / k);
   }
   return totalh;
 }

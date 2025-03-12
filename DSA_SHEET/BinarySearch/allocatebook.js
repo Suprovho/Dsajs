@@ -2,7 +2,8 @@ function findPages(arr, n, m) {
   // Write your code here.
 
   // almost same like ship within days prblm.
-
+  // here n is to distract;
+  
   if (m > n) return -1;
 
   let start = Math.max(...arr);

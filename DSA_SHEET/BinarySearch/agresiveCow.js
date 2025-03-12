@@ -15,7 +15,7 @@ function aggressiveCows(stalls, k) {
 }
 
 function cowPos(stalls, dist, cows) {
-  const n = stalls.length; 
+  const n = stalls.length;
   let cntCows = 1; // number of cows placed
   let last = stalls[0]; // position of last placed cow
   for (let i = 1; i < n; i++) {
