@@ -1,4 +1,3 @@
-
 //* in js array is dynamic so the stack implementation is dynamic as of java or c++
 //* in java and c++ we have to implement the push,pop function where as in js we already have so it will be diff
 //* in java we use pointer to control the push pop operation completely
@@ -55,8 +54,7 @@ st.push(90);
 st.display();
 
 console.log(st.pop());
- 
+
 st.display();
 
 console.log(st.peek());
-
