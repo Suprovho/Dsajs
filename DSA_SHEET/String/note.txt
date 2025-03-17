@@ -1,0 +1,2 @@
+if we multiply any number with -1 it will become -ve.
+to convert char into no we should - with '0'; 
