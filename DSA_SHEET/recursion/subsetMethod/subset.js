@@ -1,6 +1,6 @@
 //     ""
 //    /   \
-//    "a"   ""
+//    "a"   ""                    // this tree contain only unprocessed nodes.
 //    /  \   /  \
 //    "ab"  "a" "b"  ""
 //    /  \   / \  / \  / \

@@ -1,11 +1,15 @@
-function Sum(arr,target,index,curr) {
-    if (index===arr.length) {
-        return curr==target?1:0;
+function sum(arr, target, list, curr) {
+  if (arr.length == 0) {
+    if (curr == target) {
+      list.push(curr);
     }
-    let include=Sum(arr,target,index+1,curr+arr[index]);
-    let exclude=Sum(arr,target,index+1,curr);
-
-    return include+exclude;
+    return;
+  }
+  let ele = arr[0];
+  sum(arr.slice(1), target, list, curr + ele);
+  sum(arr.slice(1), target, list, curr);
 }
-
-console.log(Sum([5, 2, 3], 5,0,0)); 
+let list = [];
+sum(arr, target, list, 0);
+console.log(list.length);
+ 
