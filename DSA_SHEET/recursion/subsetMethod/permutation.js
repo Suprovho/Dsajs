@@ -1,3 +1,5 @@
+//* there can be multiple nodes such as questions of this one then phn no , dice , other permutation and combination question similar to these ones. its not like only 2 lvl is possible it depend upon questions.
+
 function permutations(p, list, up) {
   if (up === "") {
     list.push(p);
