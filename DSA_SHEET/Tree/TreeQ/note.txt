@@ -1,0 +1,4 @@
+BFS ->
+
+when u are told to search by level 
+when answer lies near the root node.
