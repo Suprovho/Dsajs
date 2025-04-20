@@ -1,0 +1,18 @@
+✅ Height-Balanced Binary Search Tree (HB-BST):
+
+🔹A general concept.
+
+🔹A BST is height-balanced if, for every node, the difference in height between left and right subtrees is at most 1.
+
+🔹This is what LeetCode usually means when it says "convert sorted array to a height-balanced BST".
+
+✅ AVL Tree 
+
+🔹A specific type of height-balanced BST.
+
+🔹It strictly enforces the balance factor (difference in heights of left and right subtree) to be -1, 0, or +1.
+
+🔹Every time you insert or delete, the tree performs rotations (LL, RR, LR, RL) to maintain balance.
+
+
+Think of HB-BST as a general rule like "stay fit", while AVL Tree is a strict workout plan that ensures you're always within ideal BMI 😂
