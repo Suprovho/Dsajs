@@ -1,5 +1,7 @@
 IN ORDER->
-LEFT-ROOT-RIGHT
+LEFT-ROOT-RIGHT  // when we are solving prb like kth smallest or ele in tree  or finding lowest value in tree
+
+// use when to work with sorted bst
 
 PRE ORDER->
 ROOT-LEFT-RIGHT
@@ -7,4 +9,4 @@ ROOT-LEFT-RIGHT
 POST ORDER->
 LEFT-RIGHT-ROOT
 
-// IN MOST OF THE CASE WE WILL USE POST ORDER TO SOLVE PROBLEM
+// IN MOST OF THE CASE WE WILL USE POST ORDER or PRE ORDER TO SOLVE PROBLEM
