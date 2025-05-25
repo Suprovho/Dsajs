@@ -94,3 +94,14 @@ heap.insert(76);
 
 const sortedList = heap.heapSort();
 console.log(sortedList); // Output: [22, 34, 45, 76, 89]
+
+
+// how remove work
+
+// Compare the current node with its children.
+
+// Find the smaller of the two children.
+
+// If the current node is bigger, swap it with the smaller child.
+
+// Repeat until the node is smaller than both children or it's a leaf.

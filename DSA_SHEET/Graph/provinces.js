@@ -6,7 +6,8 @@ function numProvinces(V, adj) {
   let adjL = Array.from({ length: V }, () => []);
 
   for (let i = 0; i < V; i++) {
-    for (let j = 0; j < V; j++) {       // as row and col are same number or we can do adj[i].length in j 
+    for (let j = 0; j < V; j++) {
+      // as row and col are same number or we can do adj[i].length in j
       if (adj[i][j] == 1 && i != j) {
         adjL[i].push(j);
       }
