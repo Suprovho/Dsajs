@@ -1,0 +1,14 @@
+Z-Function
+	
+Minimum characters needed to be inserted in the beginning to make it palindromic
+
+160. Intersection of Two Linked Lists
+
+Reverse a LinkedList in groups of size k.
+
+word break
+
+BST iterator
+
+	
+Grid Unique Paths
