@@ -1,0 +1,4 @@
+due to uniformity we don't use greedy we tend to use dp as we don't know where the ele is positioned such as one side value is small where other is too big so 
+
+in recursion.. express anything in the form of i and j and write the base case 
+
