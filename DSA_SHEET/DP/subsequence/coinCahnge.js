@@ -1,4 +1,4 @@
-// knapsack logic
+// unbound knapsack logic - coin change 1,2, rod-cutting.
 
 var coinChange = function (coins, amount) {
   let n = coins.length;

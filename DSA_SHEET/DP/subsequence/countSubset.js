@@ -1,7 +1,7 @@
 function findWays(num, k) {
   let n = num.length;
   let dp = Array.from({ length: n }, () => Array(k + 1).fill(-1));
-  return helper(n-1, num, k, dp);
+  return helper(n - 1, num, k, dp);
 }
 
 function helper(ind, arr, target, dp) {
@@ -53,7 +53,6 @@ function main() {
 
   console.log("The number of subsets found are: " + findWays(arr, k));
   console.log("The number of subsets found are: " + findWays2(arr, k));
-  
 }
 
 main();
