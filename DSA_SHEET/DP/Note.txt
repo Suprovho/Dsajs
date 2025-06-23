@@ -5,3 +5,8 @@ but don't use ind+1 in tabulation
 if we have ind-1 in tabulation we can do space optimization by taking 2 or 1 array in subsequence
 
 where there is ind-1 replace with prev and ind with curr in tabulation in subsequence prblm if 2 array used in space optimization.
+
+// use dp table to solve printing problem
+
+//* When printing the answer, you're retracing your steps back from the goal to the start to know which path you took.
+means from n m to 0 in dp table of tabulation
