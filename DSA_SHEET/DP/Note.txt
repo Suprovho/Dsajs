@@ -10,3 +10,5 @@ where there is ind-1 replace with prev and ind with curr in tabulation in subseq
 
 //* When printing the answer, you're retracing your steps back from the goal to the start to know which path you took.
 means from n m to 0 in dp table of tabulation
+
+in case of string problem make dp array of m , n length and in tabulation m+1,n+1 

@@ -16,11 +16,11 @@ maximum product sub array
 	
 Palindromic Substrings
 
- Subtree of Another Tree
+Subtree of Another Tree
 
- 238. Product of Array Except Self
+Product of Array Except Self
 
- Reorder List
+Reorder List
  	
 Container with most water
 
@@ -36,4 +36,14 @@ Group Anagrams
 
 Find Median from Data Stream
 
-rabin krap
+rabin krap / Repeated String Match
+
+Rotate Matrix by 90 degrees
+
+Print the matrix in spiral manner
+
+rotate array
+
+kmp algo
+
+egg dropping
