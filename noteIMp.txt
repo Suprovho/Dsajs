@@ -46,4 +46,3 @@ rotate array
 
 kmp algo
 
-egg dropping
