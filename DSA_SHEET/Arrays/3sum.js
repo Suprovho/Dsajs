@@ -1,4 +1,5 @@
 var threeSum = function (nums) {
+  // main mo-to to handel all kind of duplicates 
   let ans = [];
   nums.sort((a, b) => a - b);
   for (let i = 0; i < nums.length; i++) {

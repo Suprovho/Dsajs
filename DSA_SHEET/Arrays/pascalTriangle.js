@@ -1,4 +1,7 @@
  // ncr approach follow the article
+// r-1
+//    ^C
+//       c-1
 
  function generateRow(row) {
     let ans=1;
@@ -10,6 +13,7 @@
     }
     return ansrow;
  }
+
 
  var generate = function(numRows) {
     let ans=[]

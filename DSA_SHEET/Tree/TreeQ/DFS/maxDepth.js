@@ -8,4 +8,4 @@ var maxDepth = function (root) {
   return Math.max(left,right)+1
 };
 
-// simple height use case 
+// simple height use case ;

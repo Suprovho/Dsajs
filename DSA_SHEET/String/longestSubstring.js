@@ -5,7 +5,7 @@ var longestPalindrome = function (s) {
   for (let i = 0; i < s.length; i++) {
     let odd = expandFromMiddle(s, i, i); // racecar
     let even = expandFromMiddle(s, i, i + 1);
-    let len = Math.max(odd, even);
+    let len = Math.max(odd, even);          
     if (len > end - start) {
         start = i - Math.floor((len - 1) / 2);
         end = i + Math.floor(len / 2); 

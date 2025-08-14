@@ -5,3 +5,5 @@ if we use empty array make sure to push it don't override it.
 
 let temp=[];
 temp.push(..) not temp[i]=exmaple[i];
+
+prefix sum logic is used in many subArray question where we asked sum where sliding win is not working

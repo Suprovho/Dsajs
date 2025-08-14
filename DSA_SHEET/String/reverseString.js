@@ -22,4 +22,4 @@ var reverseWords = function (s) {
 };
 
 const s = "the sky is blue";
-console.log(reverseWords(s));
+console.log(reverseWords(s)); 

@@ -42,6 +42,7 @@ var majorityElement = function (nums) {
 };
 
 // optimal approach mooyrs voting algo.
+//* increase the count till same ele and decrease on diff if it become zero reset cnt to 1 and add ele thats next;
 
 var majorityElement = function (nums) {
   let n = nums.length;

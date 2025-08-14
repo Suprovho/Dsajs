@@ -1,1 +1,1 @@
-Generally in such problems where we need to find the first smaller or bigger element to the left or right of the current element, stack based approach is very helpful and intuitive. 
+Generally in such problems where we need to find the first smaller or bigger element or next greater to the left or right of the current element, stack based approach is very helpful and intuitive. 

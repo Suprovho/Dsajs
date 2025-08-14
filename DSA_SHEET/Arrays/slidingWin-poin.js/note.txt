@@ -1,0 +1,3 @@
+ while dealing with -ve ele sliding window may not work in few cases
+
+sliding win apply in q like longest shortest min max etc key word and logic that form a window

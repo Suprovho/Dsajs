@@ -6,3 +6,4 @@ function fibo(n) {
 }
 
 console.log(fibo(4));
+

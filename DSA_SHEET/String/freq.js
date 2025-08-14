@@ -13,8 +13,6 @@ var frequencySort = function (s) {
   // [ ['t', 1], ['r', 1], ['e', 2] ]
   // [ ['e', 2], ['t', 1], ['r', 1] ] after sort in desc
 
-  const r = new Map(sortedArray); // convert again to map
-
   // create string based on r.
   let ss = ""; 
 
