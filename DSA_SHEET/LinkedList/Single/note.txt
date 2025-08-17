@@ -1,6 +1,6 @@
 read the structure or comm.. line to understand the structure and what to return of ll questions.  and parms head is not actually head. 
 
-ll problem follows 3 concept ->
+ll problem follows 3 concept ->  
 
 fast and slow pointer
 reversal of ll

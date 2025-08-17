@@ -16,7 +16,7 @@ var frequencySort = function (s) {
   // create string based on r.
   let ss = ""; 
 
-  for (const [char, freq] of r.entries()) {
+  for (const [char, freq] of sortedArray) {
     ss += char.repeat(freq); 
   }
 
