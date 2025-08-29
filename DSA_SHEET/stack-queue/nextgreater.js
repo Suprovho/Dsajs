@@ -13,12 +13,12 @@ var nextGreaterElement = function (nums1, nums2) {
     stack.push(nums2[i]);
   }
   // add stack ele to nums1 only no extra space required.
-
+  let result = [];
   for (let i = 0; i < nums1.length; i++) {
-    nums1[i] = map.has(nums1[i]) ? map.get(nums1[i]) : -1;
+    result.push(map.has(nums1[i]) ? map.get(nums1[i]) : -1);
   }
 
-  return nums1;
+  return result;
 };
 
 // ! same question second part if circular

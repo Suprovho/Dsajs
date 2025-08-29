@@ -37,5 +37,6 @@ var check2 = function (nums) {
   }
   return nums;
 };
+
 // tc-O(M)+O(n-m)=O(n);
 console.log(check2(nums));
