@@ -1,3 +1,10 @@
+
+// If you used let/const  inside the class, it would not belong to the object.
+// It would just be a local variable inside the class definition (and not accessible on this), which isn’t what we want.
+// in JavaScript class fields, you don’t write let or var.
+
+// we use this. that directly initialize;
+
 class LRUCache {
   constructor(capacity) {
     this.capacity = capacity;
