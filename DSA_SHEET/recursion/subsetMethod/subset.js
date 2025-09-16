@@ -36,3 +36,4 @@ const list2 = [];
 const arr = [1, 2, 3];
 subsetNo(arr, [], list2);
 console.log(list2);
+

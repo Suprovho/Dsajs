@@ -18,7 +18,7 @@ class BST {
 
   _insert(node, value) {
     if (!node) {
-      return new Node(value);
+      return new Node(value); // if node is null then only it will add and return new one other wise last line old one.line 31
     }
 
     if (value < node.value) {
@@ -27,8 +27,8 @@ class BST {
       node.right = this._insert(node.right, value);
     }
 
-    node.height = Math.max(this.height(node.left), this.height(node.right)) + 1;
-    return node; // imp point to notice.
+    node.height = Math.max(this.height(node.left), this.height(node.right)) + 1; // not so imp
+    return node; // imp point to notice. so that structure don't change.
   }
 
   populate(values) {
@@ -56,7 +56,7 @@ class BST {
   }
 
   _display(node, label) {
-    if (!node) return;
+    if (!node) return;  // preorder
     console.log(label + node.value);
     this._display(node.left, "Left child of " + node.value + ": ");
     this._display(node.right, "Right child of " + node.value + ": ");

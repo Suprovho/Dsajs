@@ -8,10 +8,10 @@ function queens(board, row) {
   let count = 0;
 
   for (let col = 0; col < board.length; col++) {
-    if (isSafe(board, row, col)) {
+    if (isSafe(board, row, col)) { // if safe then check for below all 4 ;
       board[row][col] = true;
       count += queens(board, row + 1);
-      board[row][col] = false;
+      board[row][col] = false; // bt if not possible.
     }
   }
   return count;
