@@ -9,7 +9,7 @@ var rightSideView = function (root) {
     let levelSize = queue.length;
     for (let i = 0; i < levelSize; i++) {
       let currNode = queue.shift();
-      if (i==levelSize-1) {
+      if (i==levelSize-1) { 
         result.push(currNode.val)
       }
       if (currNode.left !== null) {

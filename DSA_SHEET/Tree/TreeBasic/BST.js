@@ -18,7 +18,7 @@ class BST {
 
   _insert(node, value) {
     if (!node) {
-      return new Node(value); // if node is null then only it will add and return new one other wise last line old one.line 31
+      return new Node(value); // if node is null then only it will add and return new one other wise last line old one.line 31 also act as a base case;
     }
 
     if (value < node.value) {
@@ -29,6 +29,8 @@ class BST {
 
     node.height = Math.max(this.height(node.left), this.height(node.right)) + 1; // not so imp
     return node; // imp point to notice. so that structure don't change.
+
+    // see the stack call for better understanding.
   }
 
   populate(values) {

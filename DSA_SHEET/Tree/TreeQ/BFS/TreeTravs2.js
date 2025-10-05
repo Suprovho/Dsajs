@@ -19,7 +19,7 @@ var levelOrderBottom = function (root) {
         queue.push(currNode.right);
       }
     }
-    result.unshift(currLevel);
+    result.unshift(currLevel); // push in 0th indx
   }
   return result;
 };
