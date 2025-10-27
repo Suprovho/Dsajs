@@ -24,15 +24,15 @@ var check2 = function (nums) {
   let j=-1;
   for (let i = 0; i < nums.length; i++) {
       if (nums[i]===0) {
-        j=i;
+        j=i;   // j act as a tracker 
         break;
       }
   }
-  if (j === -1) return a;
+  if (j === -1) return nums;
   for (let i = j+1; i < nums.length; i++) {
     if (nums[i]!==0) {
-     [nums[j],nums[i]]=[nums[i],nums[j]];
-     j++;   
+     [nums[j],nums[i]]=[nums[i],nums[j]]; 
+     j++;   // using that tracker we are replacing other non zero ele
     } 
   }
   return nums;

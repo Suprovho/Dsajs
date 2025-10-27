@@ -8,7 +8,7 @@ function bottomView(root) {
   while (queue.length > 0) {
     let [node, line] = queue.shift(); // use font pointer in gfg incase of tle queue[front++]
 
-    map.set(line, node.data); // vertical lvl
+    map.set(line, node.data); // vertical lvl //  overwrite any previous node on same vertical line
 
     minLine = Math.min(minLine, line);
     maxLine = Math.max(maxLine, line);
