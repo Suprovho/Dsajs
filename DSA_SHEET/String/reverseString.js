@@ -14,3 +14,9 @@ var reverseWords = function (s) {
     if (end >= 0) ans.push(str.substring(0, end + 1)); // first word as it dont have space we break word after space but here it won't work
     return ans.join(" ");
 };
+
+
+// sc-O(1);
+var reverseWords = function (s) {
+    return s.trim().split(/\s+/).reverse().join(" ");
+};
